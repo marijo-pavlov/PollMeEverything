@@ -1,6 +1,6 @@
 # PollMeEverything
  
-## FreeCodeCamp project - Full stack Javascript app, Voting app written in Express, React and MongoDB
+## FreeCodeCamp project - Full stack Javascript app, Voting app written in Express, React, D3 and MongoDB
 
 ### User Stories
  - As an authenticated user, I can keep my polls and come back later to access them.
