@@ -50,19 +50,30 @@ var Home = React.createClass({
 	},
 	render(){
 		return(
-			<div className="container">
-				<div className="row">
-					<div className="col-xs-12">
-						<h1>Polls</h1>
-					</div>
+			<div className="home">
+				<div className="jumbotron homebg">
+					<div className="container">
+				  		<div className="col-xs-12">
+				 			<h1>Hello to PollMeEverything!</h1>
+							<p>PollMeEverything is a service for creating awesome polls.</p>
+						</div>
+				  	</div>
 				</div>
 
-				{(this.state.polls.length === 0 ?
-					<p className="alert alert-info">Currently there are no polls.</p> : null
-				)}
-				
-				<div className="row">
-					{this.state.polls.map(this.eachPoll)}
+				<div className="container">
+					<div className="row">
+						<div className="col-xs-12">
+							<h1>Polls</h1>
+						</div>
+					</div>
+
+					{(this.state.polls.length === 0 ?
+						<p className="alert alert-info">Currently there are no polls.</p> : null
+					)}
+					
+					<div className="row">
+						{this.state.polls.map(this.eachPoll)}
+					</div>
 				</div>
 			</div>
 		);

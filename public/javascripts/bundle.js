@@ -26945,29 +26945,55 @@
 		render: function render() {
 			return _react2.default.createElement(
 				'div',
-				{ className: 'container' },
+				{ className: 'home' },
 				_react2.default.createElement(
 					'div',
-					{ className: 'row' },
+					{ className: 'jumbotron homebg' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'col-xs-12' },
+						{ className: 'container' },
 						_react2.default.createElement(
-							'h1',
-							null,
-							'Polls'
+							'div',
+							{ className: 'col-xs-12' },
+							_react2.default.createElement(
+								'h1',
+								null,
+								'Hello to PollMeEverything!'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'PollMeEverything is a service for creating awesome polls.'
+							)
 						)
 					)
 				),
-				this.state.polls.length === 0 ? _react2.default.createElement(
-					'p',
-					{ className: 'alert alert-info' },
-					'Currently there are no polls.'
-				) : null,
 				_react2.default.createElement(
 					'div',
-					{ className: 'row' },
-					this.state.polls.map(this.eachPoll)
+					{ className: 'container' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'row' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'col-xs-12' },
+							_react2.default.createElement(
+								'h1',
+								null,
+								'Polls'
+							)
+						)
+					),
+					this.state.polls.length === 0 ? _react2.default.createElement(
+						'p',
+						{ className: 'alert alert-info' },
+						'Currently there are no polls.'
+					) : null,
+					_react2.default.createElement(
+						'div',
+						{ className: 'row' },
+						this.state.polls.map(this.eachPoll)
+					)
 				)
 			);
 		}

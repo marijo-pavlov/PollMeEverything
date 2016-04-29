@@ -1,6 +1,18 @@
 body {
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.homebg{
+	/* Free image on: https://www.pexels.com/photo/pine-tree-on-nighttime-70151/ */
+	background: url('https://static.pexels.com/photos/70151/pexels-photo-70151.jpeg') no-repeat bottom center fixed;
+    background-size: cover;
+    color: white;
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 15%;
+	margin: 0;
 }
 
 .enable-pointer .form-control-feedback {
