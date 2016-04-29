@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.enable-pointer .form-control-feedback {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+#chartContainer{
+	margin-top: 20px;
+}
+
+.titleDiv{
+	border-left: 10px solid #23527C;
+}
+
+.date {
+	background-color:  #0074D9;
+	color: white;
+	font-size: 1.5em;
+}
+
+.poll{
+	margin-bottom: 1%;
+}
+
+.deleteButton{
+	padding: 0;
+}
+.deleteButton > i {
+	margin: 0;
+}
+
+.removeChoiceIcon:hover{
+	color: red;
+}
+
+.twitterButton{
+	background-color: #55acee;
+	color: white;
+	margin-top: 1%;
+}
